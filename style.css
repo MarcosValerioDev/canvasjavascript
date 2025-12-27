@@ -1,0 +1,46 @@
+:root {
+      --bg: #e6edf3
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e6edf3;
+      font-family: system-ui, Segoe UI, Roboto
+    }
+
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center
+    }
+
+    canvas {
+      width: 100vw;
+      overflow: hidden;
+      height: 100vh;
+      background: #e6edf3;
+      border: none;
+      image-rendering: crisp-edges;
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px
+    }
+
+    button {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 0;
+      background: #1976d2;
+      color: white;
+      cursor: pointer
+    }
