@@ -10,8 +10,8 @@
       img.crossOrigin = 'anonymous';
       img.src = 'scrollingText.jpg'; // default
       let particles = [];
-      const STEP = 4;            // sampling step (smaller = more particles)
-      const SIZE = 3;            // particle draw size
+      const STEP = 6;            // sampling step (smaller = more particles)
+      const SIZE = 6;            // particle draw size
       let w = canvas.width, h = canvas.height;
 
       // mouse/touch
